@@ -1,0 +1,181 @@
+
+body{
+    margin: 0;
+    background-color: rgb(211, 161, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.background {
+    padding: 10px 5px 10px 5px;
+    background-color: beige;
+}
+
+.navbar {
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    justify-content: start, space-evenly;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+    text-decoration: none;
+    }
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar2 {
+    padding-left: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+}
+
+    .navbar2 a {
+        text-decoration: none;
+}
+    
+
+.image1 {
+        padding-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+
+.paragraph {
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.navbar3 {
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+}
+
+/* ############################################################################################################# */
+.Bouquets {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.bparagraph{
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+
+.bundleflowers {
+    display: flex;
+    flex-direction: row; /* ensures horizontal layout */
+    justify-content: space-between; /* evenly spaces the items with equal space between them */
+    flex-wrap: wrap; /* allows the items to wrap if there's not enough space */
+    padding: 0 20px; /* adds some space to the sides of the container for better appearance */
+}
+
+/* Common styles for all image divs */
+.image, .image2, .image3 {
+    display: flex;
+    flex-direction: column; /* ensures content is vertically stacked */
+    align-items: center; /* centers the content horizontally */
+    background-color: white;
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1; /* allows each item to grow equally */
+    margin: 0 10px; /* adds some space between items */
+    max-width: calc(33.33% - 20px); /* ensures each item can only take up to 1/3 of the space minus margin */
+}
+
+/* Style for images if needed */
+.pic1, .pic2, .pic3 {
+    max-width: 100%; 
+    border-radius: 8px; 
+}
+
+/* Styling for the text under each image */
+.image p, .image2 p, .image3 p {
+    text-align: center;
+    margin-top: 10px; 
+}
+
+
+
+
+/* ############################################################### */
+
+
+
+.plants {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.fparagraph{
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+
+.plantgroup {
+    display: flex;
+    flex-direction: row; /* ensures horizontal layout */
+    justify-content: space-between; /* evenly spaces the items with equal space between them */
+    flex-wrap: wrap; /* allows the items to wrap if there's not enough space */
+    padding: 0 20px; /* adds some space to the sides of the container for better appearance */
+}
+
+/* Common styles for all image divs */
+.plant1, .plant2, .plant3 {
+    display: flex;
+    flex-direction: column; /* ensures content is vertically stacked */
+    align-items: center; /* centers the content horizontally */
+    background-color: white;
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1; /* allows each item to grow equally */
+    margin: 0 10px; /* adds some space between items */
+    max-width: calc(33.33% - 20px); /* ensures each item can only take up to 1/3 of the space minus margin */
+}
+
+/* Style for images if needed */
+.yuka, .potplant, .greenplant2 {
+    max-width: 100%; 
+    border-radius: 8px; 
+}
+
+/* Styling for the text under each image */
+.plant1 p, .plant2 p, .plant3 p {
+    text-align: center;
+    margin-top: 10px; 
+}
